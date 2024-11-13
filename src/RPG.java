@@ -9,6 +9,7 @@
  */
 import java.util.*;
 
+
 public class RPG {
 
     /**
@@ -19,7 +20,9 @@ public class RPG {
         Scanner scan = new Scanner(System.in);
         String name = "Baltasar";
         int chosen = 0;
-
+        
+        CharacterSelect();
+        
         //Choose your class
         System.out.println("Hello litle wizard, welcome to the dreamspace of magic, where your soul chooses what type of magic  type of wizard, are you exited to be part of this magic world? Shure you are!");
         System.out.println("But the first part of being a wizard is abandoning your old name and coming up with your new wizard name (remember to make it cool) so go on and tell me!");
@@ -39,7 +42,6 @@ public class RPG {
             chosen = scan.nextInt();
         }
         
-        i am  wizard hahhahaha now suffer all my wizadrdous spells that i cast upon your desperate soul hahahahahaha you have no power over meeeee hahahahahaha i am HIM
         
     }
 }
