@@ -9,7 +9,6 @@
  */
 import java.util.*;
 
-
 public class RPG {
 
     /**
@@ -20,13 +19,28 @@ public class RPG {
         Scanner scan = new Scanner(System.in);
         String name = "Baltasar";
         int chosen = 0;
-        
-        
+
         name = CharacterSelect.SelectionName();
         chosen = CharacterSelect.SelectionRole();
-        
-        
-        
-        
+
+        switch (chosen) {
+            case 1:
+                
+                break;
+            case 2:
+                
+                
+                break;
+            case 3:
+                
+                break;
+            case 4:
+                
+                break;
+            case 5:
+                
+                break;
+        }
+
     }
 }

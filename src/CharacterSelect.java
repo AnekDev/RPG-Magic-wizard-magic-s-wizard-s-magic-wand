@@ -33,7 +33,9 @@ public class CharacterSelect {
     
     //
     static int SelectionRole(){
+        Scanner scan = new Scanner(System.in);
         int chosen = 0;
+        String shure = "n";
         System.out.println("So be it, now choose, what is your magic, who do you want to become, what magic path would you choose...");
         
         while (chosen < 1 || chosen > 5) {
@@ -44,6 +46,18 @@ public class CharacterSelect {
             System.out.println("5. Artifactor (The merge of mechanical and magic)");
             
             chosen = scan.nextInt();
+            if(chosen < 5 && chosen > 1){
+                System.out.println("Are you SHURE? y/n");
+                scan.nextLine();
+                shure = scan.nextLine();
+                if(shure.equals("y") || shure.equals("Y")){
+                    System.out.println("Then so be it.");
+                }else{
+                    chosen = 0;
+                }
+                
+            }
+            
         }
         
         return chosen;
