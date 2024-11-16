@@ -9,10 +9,6 @@ package playerClasses;
  *
  * @author manel
  */
-public class Religious {
-    int hp; 
+public class NecroInvocations {
     
-    public Religious(){
-        
-    }
 }

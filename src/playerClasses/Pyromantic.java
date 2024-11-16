@@ -9,6 +9,7 @@ package playerClasses;
  * @author manel
  */
 public class Pyromantic {
+    int flame; 
     public Pyromantic(){
         
     }
