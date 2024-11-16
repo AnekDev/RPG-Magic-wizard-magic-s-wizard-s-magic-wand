@@ -7,6 +7,9 @@
  *
  * @author manel
  */
+import playerClasses.Necromancer;
+import playerClasses.Religious;
+import playerClasses.Pyromantic;
 import java.util.*;
 
 public class RPG {
@@ -25,20 +28,16 @@ public class RPG {
 
         switch (chosen) {
             case 1:
-                
+                Religious thunder = new Religious();
+                System.out.println("Welcome so, to the CLERO you are oficially what we call a thunder, the lowest of all the levels");
                 break;
             case 2:
-                
-                
+                Necromancer bone = new Necromancer();
+                System.out.println("Welcome so, to the CLERO you are oficially what we call a thunder, the lowest of all the levels");
                 break;
             case 3:
-                
-                break;
-            case 4:
-                
-                break;
-            case 5:
-                
+                Pyromantic spark = new Pyromantic();
+                System.out.println("Welcome so, to the CLERO you are oficially what we call a thunder, the lowest of all the levels");
                 break;
         }
 

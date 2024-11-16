@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 /*
@@ -38,15 +37,13 @@ public class CharacterSelect {
         String shure = "n";
         System.out.println("So be it, now choose, what is your magic, who do you want to become, what magic path would you choose...");
         
-        while (chosen < 1 || chosen > 5) {
-            System.out.println("1. Religious warrior (Offsprings of lady MOON)");
-            System.out.println("2. Blue Wizard (Seekers of truth)");
-            System.out.println("3. Pyromantic (All must be destroyed)");
-            System.out.println("4. Necromancer (Powers to be carefull with)");
-            System.out.println("5. Artifactor (The merge of mechanical and magic)");
+        while (chosen < 1 || chosen > 3) {
+            System.out.println("1. Religious warrior");
+            System.out.println("2. Necromancer");
+            System.out.println("3. Pyromantic");
             
             chosen = scan.nextInt();
-            if(chosen < 5 && chosen > 1){
+            if(chosen < 3 && chosen > 1){
                 System.out.println("Are you SHURE? y/n");
                 scan.nextLine();
                 shure = scan.nextLine();
