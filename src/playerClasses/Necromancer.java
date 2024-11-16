@@ -33,7 +33,13 @@ public class Necromancer {
     // the way a necromancer works is so it loses when he ends up with no hp, they tend to be 
     int hp; 
     int souls;
+    
     public Necromancer(){
-        
+	this.hp = 40;
+	this.souls = 2;
     }
 }
+
+
+
+
