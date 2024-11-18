@@ -35,11 +35,11 @@ public class RPG {
                 break;
             case 2:
                 Necromancer bone = new Necromancer();
-                System.out.println("Welcome so, to the CLERO you are oficially what we call a thunder, the lowest of all the levels");
+                System.out.println("You have decided to partner with death and to give up your humanity");
                 break;
             case 3:
                 Pyromantic spark = new Pyromantic();
-                System.out.println("Welcome so, to the CLERO you are oficially what we call a thunder, the lowest of all the levels");
+                System.out.println("WHAT WHO DO YOU THINK YOU ARE YOU CRAZY CLUTISH *you feel how all your skull starts burning, realizing what you have just done...*");
                 break;
         }
 
