@@ -4,10 +4,9 @@
  */
 package playerClasses;
 
-/**
- *
- * @author manel
- */
+/*
+@author manel
+*/
 public class Pyromantic {
     /* 
         GAME RULES:
